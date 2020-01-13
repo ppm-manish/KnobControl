@@ -5,6 +5,177 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>12D2ABA6-6233-4636-B402-3576CFEAA70A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>12D2ABA6-6233-4636-B402-3576CFEAA70A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KnobControl project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KnobControl</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build KnobControl</string>
+			<key>timeStartedRecording</key>
+			<real>600612647.98021805</real>
+			<key>timeStoppedRecording</key>
+			<real>600612648.03686905</real>
+			<key>title</key>
+			<string>Build KnobControl</string>
+			<key>uniqueIdentifier</key>
+			<string>12D2ABA6-6233-4636-B402-3576CFEAA70A</string>
+		</dict>
+		<key>5FB16734-B972-4E2B-8C73-F3776830B1C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5FB16734-B972-4E2B-8C73-F3776830B1C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KnobControl project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KnobControl</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean KnobControl</string>
+			<key>timeStartedRecording</key>
+			<real>600614627.70796204</real>
+			<key>timeStoppedRecording</key>
+			<real>600614627.72139597</real>
+			<key>title</key>
+			<string>Clean KnobControl</string>
+			<key>uniqueIdentifier</key>
+			<string>5FB16734-B972-4E2B-8C73-F3776830B1C4</string>
+		</dict>
+		<key>AFFA4CB0-E6E3-4F46-ACF6-CB6CCAA5B7B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AFFA4CB0-E6E3-4F46-ACF6-CB6CCAA5B7B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KnobControl project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KnobControl</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build KnobControl</string>
+			<key>timeStartedRecording</key>
+			<real>600614629.677073</real>
+			<key>timeStoppedRecording</key>
+			<real>600614630.85792899</real>
+			<key>title</key>
+			<string>Build KnobControl</string>
+			<key>uniqueIdentifier</key>
+			<string>AFFA4CB0-E6E3-4F46-ACF6-CB6CCAA5B7B0</string>
+		</dict>
+		<key>C5939495-B0EB-4ADA-A659-EB690434DE01</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C5939495-B0EB-4ADA-A659-EB690434DE01.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KnobControl project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KnobControl</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build KnobControl</string>
+			<key>timeStartedRecording</key>
+			<real>600614646.798033</real>
+			<key>timeStoppedRecording</key>
+			<real>600614648.33971095</real>
+			<key>title</key>
+			<string>Build KnobControl</string>
+			<key>uniqueIdentifier</key>
+			<string>C5939495-B0EB-4ADA-A659-EB690434DE01</string>
+		</dict>
+		<key>D98D5FBE-A818-4202-B09F-C43F52F87873</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D98D5FBE-A818-4202-B09F-C43F52F87873.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KnobControl project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KnobControl</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean KnobControl</string>
+			<key>timeStartedRecording</key>
+			<real>600614626.36348796</real>
+			<key>timeStoppedRecording</key>
+			<real>600614626.407583</real>
+			<key>title</key>
+			<string>Clean KnobControl</string>
+			<key>uniqueIdentifier</key>
+			<string>D98D5FBE-A818-4202-B09F-C43F52F87873</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
