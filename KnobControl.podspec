@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "ppm-manish" => "manish.kumar@paypermint.in" }
   spec.platform     = :ios, "11.0"
 
-  spec.source       = { :path => '.' }
+  spec.source       = { :git => "https://github.com/ppm-manish/KnobControl.git", :tag => "0.0.1" }
 
   spec.source_files  = "KnobControl"
   spec.exclude_files = "Classes/Exclude"
