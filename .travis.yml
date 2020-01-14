@@ -15,4 +15,4 @@ before_script:
 script:
 - make production
 after_script:
-- ghr -t $TOKEN -u ppm-manish -r KnobControl -c master -b $"KnobControl iOS SDK version $tag Swift support 5.1(XCode 11.3)" $tag releases/
+- ghr -t $TOKEN -u ppm-manish -r KnobControl -c master -b "KnobControl iOS SDK version $tag Swift support 5.1(XCode 11.3)" $tag releases/
