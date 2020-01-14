@@ -10,7 +10,7 @@ XCB_REL_IPSIM_FLAGS = -target "KnobControl" -configuration Release -sdk iphonesi
 
 
 # Release builds for devqa, staging and production
-production: banner clean set-plist-release archive-release undo-plist
+production: banner clean set-plist-release archive-release
 
 set-plist-release:
 	plutil -replace build -string "production-release" KnobControl/Info.plist
