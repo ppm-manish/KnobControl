@@ -16,3 +16,10 @@ script:
 - make production
 after_script:
 - ghr -t $TOKEN -u ppm-manish -r KnobControl -c master -b $"KnobControl iOS SDK version $tag Swift support 5.1(XCode 11.3)" $tag releases/
+deploy:
+  provider: releases
+  api_key: $TOKEN
+  file: releases/KnobControl-iOS-0.0.3.tar.gz
+  skip_cleanup: true
+  on:
+    tags: true
