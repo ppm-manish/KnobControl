@@ -8,7 +8,7 @@ branches:
   - master
 env:
   global:
-    - tag=v0.0.2
+    - tag=v0.0.3
 before_script:
 - brew tap tcnksm/ghr
 - brew install ghr
