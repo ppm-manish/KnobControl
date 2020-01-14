@@ -1,25 +1,19 @@
-language: objective-c
-matrix:
-  include:
-  - osx_image: xcode11.3
-    env: XCODE_VER=113
-branches:
-  only:
-  - master
-env:
-  global:
-    - tag=v0.0.5
-before_script:
-- brew tap tcnksm/ghr
-- brew install ghr
+os: osx
+osx_image: xcode9.3
+language: swift
+sudo: required
+install:
+- wget https://swift.org/builds/swift-4.2-branch/xcode/swift-4.2-DEVELOPMENT-SNAPSHOT-2018-05-30-a/swift-4.2-DEVELOPMENT-SNAPSHOT-2018-05-30-a-osx.pkg
+- sudo installer -pkg swift-4.2-DEVELOPMENT-SNAPSHOT-2018-05-30-a-osx.pkg -target /
+- export PATH="/Library/Developer/Toolchains/swift-4.2-DEVELOPMENT-SNAPSHOT-2018-05-30-a.xctoolchain/usr/bin:$PATH"
 script:
-- make production
-after_script:
-- ghr -t $TOKEN -u ppm-manish -r KnobControl -c master -b "KnobControl iOS SDK version $tag Swift support 5.1(XCode 11.3)" $tag releases/
+- swift --version
+- swift package update
+- swift test
 deploy:
   provider: releases
   api_key: $TOKEN
-  file: releases/KnobControl-iOS-0.0.5.tar.gz
+  file: releases/KnobControl-iOS-0.0.6.tar.gz
   skip_cleanup: true
   on:
     tags: true
