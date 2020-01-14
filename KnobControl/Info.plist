@@ -17,6 +17,10 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>0.0.1</string>
+	<key>build</key>
+	<string>production-release</string>
+	<key>githash</key>
+	<string>9dcce379915407ea4ad61adc5c771db6fd8082af</string>
 </dict>
 </plist>
