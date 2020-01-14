@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "KnobControl"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "A knob control like the UISlider, but in a circular form."
 
   spec.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "ppm-manish" => "manish.kumar@paypermint.in" }
   spec.platform     = :ios, "11.0"
 
-  spec.source       = { :git => "https://github.com/ppm-manish/KnobControl.git", :tag => "0.0.4" }
+  spec.source       = { :git => "https://github.com/ppm-manish/KnobControl.git", :tag => "0.0.5" }
 
   spec.source_files  = "KnobControl"
   spec.exclude_files = "Classes/Exclude"
