@@ -4,9 +4,6 @@ jobs:
   include:
   - osx_image: xcode11.3
     env: XCODE_VER=113
-branches:
-  only:
-  - master
 env:
   global:
     - tag=v0.0.6
