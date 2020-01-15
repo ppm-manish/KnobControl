@@ -19,7 +19,7 @@ after_script:
 deploy:
   provider: releases
   github-token: $TOKEN
-  file: releases/KnobControl-iOS-0.0.6.tar.gz
+  local_dir: releases
   skip_cleanup: true
   keep-history: true
   on:
