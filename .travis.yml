@@ -19,6 +19,7 @@ before_deploy:
 deploy:
   provider: releases
   token: $TOKEN
+  file_glob: true
   file: releases/*
   skip_cleanup: true
   draft: true
