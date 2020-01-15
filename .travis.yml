@@ -1,5 +1,6 @@
 language: objective-c
-matrix:
+os: osx
+jobs:
   include:
   - osx_image: xcode11.3
     env: XCODE_VER=113
@@ -18,7 +19,7 @@ after_script:
 - ghr -t $TOKEN -u ppm-manish -r KnobControl -c master -b "KnobControl iOS SDK version $tag Swift support 5.1(XCode 11.3)" $tag releases/
 deploy:
   provider: releases
-  api_key: $TOKEN
-  local_dir: releases
-  skip_cleanup: true
+  token: $TOKEN
+  file: KnobControl-iOS-0.0.6.tar.gz
+  cleanup: false
   draft: true
