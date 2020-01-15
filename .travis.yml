@@ -18,9 +18,7 @@ after_script:
 - ghr -t $TOKEN -u ppm-manish -r KnobControl -c master -b "KnobControl iOS SDK version $tag Swift support 5.1(XCode 11.3)" $tag releases/
 deploy:
   provider: releases
-  github_token: $TOKEN
+  api_key: $TOKEN
   local_dir: releases
   skip_cleanup: true
-  keep_history: true
-  on:
-    branch: master
+  draft: true
