@@ -6,14 +6,10 @@ jobs:
     env: XCODE_VER=113
 env:
   global:
-    - tag=v0.0.9
-before_script:
-- brew tap tcnksm/ghr
-- brew install ghr
+    - tag=v0.0.10
 script:
 - travis_wait make production
 before_deploy:
-# Set up git user name and tag this commit
 - export TRAVIS_TAG=$tag
 - git tag $TRAVIS_TAG
 deploy:
@@ -22,4 +18,5 @@ deploy:
   file_glob: true
   file: releases/*
   skip_cleanup: true
-  draft: true
+  on:
+    tags: true
