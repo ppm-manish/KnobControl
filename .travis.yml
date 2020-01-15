@@ -6,7 +6,7 @@ jobs:
     env: XCODE_VER=113
 env:
   global:
-    - tag=v0.0.8
+    - tag=v0.0.9
 before_script:
 - brew tap tcnksm/ghr
 - brew install ghr
