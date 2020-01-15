@@ -10,8 +10,8 @@ script:
 - make production
 deploy:
   provider: releases
-  api_key: $TOKEN
-  file: releases/KnobControl-iOS-0.0.6.tar.gz
+  github_token: $TOKEN
+  local_dir: releases
   skip_cleanup: true
   on:
-    tags: true
+    branch: master
