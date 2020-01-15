@@ -6,7 +6,7 @@ jobs:
     env: XCODE_VER=113
 env:
   global:
-    - tag=v0.0.10
+    - tag=0.0.10
 script:
 - travis_wait make production
 before_deploy:
@@ -18,5 +18,4 @@ deploy:
   file_glob: true
   file: releases/*
   skip_cleanup: true
-  on:
-    tags: true
+  draft: true
