@@ -12,6 +12,8 @@ before_script:
 - brew install ghr
 script:
 - echo $TOKEN
+- echo $SECURE_TOKEN
+- echo $TARGET
 - echo $tag
 - travis_wait make production
 deploy:
