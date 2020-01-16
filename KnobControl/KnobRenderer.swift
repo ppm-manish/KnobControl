@@ -58,7 +58,6 @@ class KnobRenderer {
       let animation = CAKeyframeAnimation(keyPath: "transform.rotation.z")
       animation.values = [pointerAngle, midAngleValue, newPointerAngle]
       animation.keyTimes = [0.0, 0.5, 1.0]
-      animation.timingFunctions = [CAMediaTimingFunction(name: .easeInEaseOut)]
       pointerLayer.add(animation, forKey: nil)
     }
 
