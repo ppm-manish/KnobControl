@@ -3,10 +3,6 @@ os: osx
 osx_image: xcode11.3    
 jobs:
   include:
-  - env: SWIFT_VER=40
-    script:
-    - sh changeSwiftVersion.sh 4.0
-    - travis_wait make production
   - env: SWIFT_VER=42
     script:
     - sh changeSwiftVersion.sh 4.2
@@ -14,6 +10,10 @@ jobs:
   - env: SWIFT_VER=50
     script:
     - sh changeSwiftVersion.sh 5.0
+    - travis_wait make production
+  - env: SWIFT_VER=40
+    script:
+    - sh changeSwiftVersion.sh 4.0
     - travis_wait make production
 env:
   global:
