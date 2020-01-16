@@ -1,1 +1,2 @@
 sed -i '' 's/SWIFT_VERSION[[:space:]]=[[:space:]][0-9].[0-9]/SWIFT_VERSION = '"$1"'/g' KnobControl.xcodeproj/project.pbxproj
+/usr/libexec/PlistBuddy KnobControl.xcodeproj/project.pbxproj -c print | grep -i SWIFT_VERSION

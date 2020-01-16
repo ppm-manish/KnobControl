@@ -28,7 +28,7 @@ build-universal-release: build-release
 	lipo -create -output $(UNIVERSAL_DIR)/KnobControl.framework/KnobControl $(BUILD_DIR)/Release-iphonesimulator/KnobControl.framework/KnobControl $(BUILD_DIR)/Release-iphoneos/KnobControl.framework/KnobControl
 
 archive-release: build-universal-release
-	tar -cvzf $(RELEASE_DIR)/KnobControl-iOS-$(VERSION).tar.gz -C $(UNIVERSAL_DIR) KnobControl.framework
+	tar -cvzf $(RELEASE_DIR)/KnobControl-iOS-$(SWIFT_VER)-$(VERSION).tar.gz -C $(UNIVERSAL_DIR) KnobControl.framework
 
 init:
 	mkdir -p $(UNIVERSAL_DIR) || true
