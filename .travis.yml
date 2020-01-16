@@ -1,19 +1,17 @@
 language: objective-c
-os: osx   
+os: osx
+osx_image: xcode11.3   
 jobs:
   include:
   - env: SWIFT_VER=42
-    osx_image: xcode11.3 
     script:
     - sh changeSwiftVersion.sh 4.2
     - travis_wait make production
   - env: SWIFT_VER=50
-    osx_image: xcode11.3 
     script:
     - sh changeSwiftVersion.sh 5.0
     - travis_wait make production
-  - env: SWIFT_VER=40
-    osx_image: xcode10.1 
+  - env: SWIFT_VER=40 
     script:
     - sh changeSwiftVersion.sh 4.0
     - travis_wait make production
