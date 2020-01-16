@@ -1,20 +1,23 @@
 language: objective-c
 os: osx
-osx_image: xcode11.3
-env: XCODE_VER=113
+osx_image: xcode11.3    
 jobs:
   include:
-  - script:
+  - env: XCODE_VER=40
+    script:
     - sh changeSwiftVersion.sh 4.0
-  - script:
+    - travis_wait make production
+  - env: XCODE_VER=42
+    script:
     - sh changeSwiftVersion.sh 4.2
-  - script:
+    - travis_wait make production
+  - env: XCODE_VER=50
+    script:
     - sh changeSwiftVersion.sh 5.0
+    - travis_wait make production
 env:
   global:
     - tag=0.0.11
-script:
-- travis_wait make production
 before_deploy:
 - export TRAVIS_TAG=$tag
 - git tag $TRAVIS_TAG
