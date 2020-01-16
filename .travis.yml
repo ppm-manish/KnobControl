@@ -1,12 +1,18 @@
 language: objective-c
 os: osx
+osx_image: xcode11.3
+env: XCODE_VER=113
 jobs:
   include:
-  - osx_image: xcode11.3
-    env: XCODE_VER=113
+  - script:
+    - sh changeSwiftVersion.sh 4.0
+  - script:
+    - sh changeSwiftVersion.sh 4.2
+  - script:
+    - sh changeSwiftVersion.sh 5.0
 env:
   global:
-    - tag=0.0.10
+    - tag=0.0.11
 script:
 - travis_wait make production
 before_deploy:
