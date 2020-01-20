@@ -24,6 +24,7 @@ before_deploy:
 deploy:
   provider: releases
   token: $TOKEN
+  repo: ppm-manish/KnobControl-pod
   file_glob: true
   file: releases/*
   skip_cleanup: true
