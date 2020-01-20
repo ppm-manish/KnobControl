@@ -1,0 +1,11 @@
+framework module KnobControl {
+  umbrella header "KnobControl.h"
+
+  export *
+  module * { export * }
+}
+
+module KnobControl.Swift {
+    header "KnobControl-Swift.h"
+    requires objc
+}
